@@ -1,0 +1,28 @@
+{
+  "name": "semester-project-2",
+  "version": "1.0.1",
+  "description": "Semester project 2, Nicholas E. Avery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nickenn/semester-project-2.git"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css",
+    "frameworks",
+    "api-calls",
+    "auction",
+    "website"
+  ],
+  "author": "Nicholas E. Avery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nickenn/semester-project-2/issues"
+  },
+  "homepage": "https://github.com/Nickenn/semester-project-2#readme"
+}
