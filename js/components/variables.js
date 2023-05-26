@@ -25,6 +25,7 @@ export const profileUsername = document.querySelector(".username");
 export const userAvatar = document.querySelector(".user-avatar");
 export const updateAvatar = document.querySelector(".update-avatar");
 export const userCredits = document.querySelector(".user-credits");
+export const creditInfo = document.querySelector(".credit-info");
 export const updateAvatar = document.querySelector(".update-avatar-form");
 export const userListingsContainer = document.querySelector(
   ".user-listings-container"
