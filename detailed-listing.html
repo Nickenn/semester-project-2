@@ -4,11 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Account login page for item bidding site."
-    />
-    <title>Auction page | Login</title>
+    <meta name="description" content="A detailed page for the current item." />
+    <title>Auction page | Item listing</title>
   </head>
   <body>
     <header>
@@ -30,24 +27,32 @@
       </nav>
     </header>
     <main>
-      <div class="container d-flex justify-content-between align-items-start">
-        <div class="row">
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+      <div class="container pt-4">
+        <div class="row flex-row-reverse editing-tools">
+          <div class="col-4 d-flex justify-content-end">
+            <button class="btn btn-secondary btn-box delete-btn">
+              <i class="fa-sharp fa-solid fa-trash"></i>
+            </button>
+          </div>
+          <div
+            class="col-xl-9 col-lg-9 col-md-9 col-sm-9 d-flex ps-0 justify-content-start"
+          >
             <button
-              class="btn btn-secondary btn-box"
+              class="btn btn-primary btn-box"
               type="button"
               data-bs-toggle="collapse"
-              data-bs-target="#new-listing"
+              data-bs-target="#update-listing"
               aria-expanded="false"
-              aria-controls="new-listing"
+              aria-controls="update-avatar"
             >
-              <i class="fa-sharp fa-solid fa-plus"></i>
+              <i class="fa-sharp fa-solid fa-gear"></i>
             </button>
-            <div class="collapse" id="new-listing">
+            <div class="collapse" id="update-listing">
               <div class="container">
-                <div class="d-flex row justify-content-end">
-                  <div class="col-12">
-                    <form class="mb-5 list-items-form">
+                <div class="row d-flex">
+                  <div class="col mt-4">
+                    <h3>Update listing</h3>
+                    <form class="mb-5 update-listing-form">
                       <label for="title" class="mt-3">Title</label>
                       <input
                         type="text"
@@ -60,10 +65,10 @@
                       <textarea
                         name="description"
                         id="description"
-                        class="form-control"
                         rows="6"
+                        class="form-control"
                       ></textarea>
-                      <label for="media" class="mt-3">Image (url)</label>
+                      <label for="media" class="mt-3"></label>
                       <input
                         type="url"
                         name="media"
@@ -79,7 +84,7 @@
                         class="form-control"
                         required
                       />
-                      <button class="btn btn-primary mt-3">List item</button>
+                      <button class="btn btn-primary mt-3">Update</button>
                     </form>
                   </div>
                 </div>
@@ -87,77 +92,41 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 d-flex ps-0">
-            <div class="collapse" id="update-avatar">
-              <div class="container">
-                <div class="row d-flex justify-content-end">
-                  <div class="col mt-4">
-                    <h4>Update profile</h4>
-                    <form class="mb-5 update-avatar">
-                      <label for="avatar" class="mt-3">Avatar (url)</label>
-                      <input
-                        type="url"
-                        name="avatar"
-                        id="avatar"
-                        class="form-control"
-                        placeholder="https://pics.com/image.jpg"
-                        required
-                      />
-                      <button class="btn btn-primary mt-3">
-                        Update profile
-                      </button>
-                    </form>
+        <div class="row justify-content-center">
+          <div class="col-10 col-sm-7 col-md-6 col-lg-5">
+            <div class="listing-container">
+              <div class="d-flex justify-content-center loading col-12">
+                <h2><i class="fa-sharp fa-solid fa-spinner fa-spin"></i></h2>
+              </div>
+            </div>
+            <div class="row mt-2">
+              <form class="bid-form">
+                <div class="d-flex">
+                  <div class="col-8 mt-1">
+                    <label for="amount"><h4>Current bid:</h4></label>
+                  </div>
+                  <div class="col-4">
+                    <input
+                      type="number"
+                      name="amount"
+                      id="amount"
+                      placeholder="Example: 8"
+                      class="form-control mb-2"
+                    />
                   </div>
                 </div>
+                <div class="d-flex flex-column align-items-center mt-3">
+                  <button class="btn btn-primary">Place bid</button>
+                </div>
+              </form>
+              <div>
+                <h3 class="bid-message mt-3"></h3>
               </div>
-            </div>
-            <button
-              class="btn btn-primary btn-box"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#update-avatar"
-              aria-expanded="false"
-              aria-controls="update-avatar"
-            >
-              <i class="fa-sharp fa-solid fa-gear"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="container pt-5">
-        <div class="row d-flex justify-content-center">
-          <div class="profile-info col-12 col-md-10 col-lg-6">
-            <div class="justify-content-start d-flex">
-              <div class="avatar"></div>
-              <h2 class="ms-3 username"></h2>
-            </div>
-            <div class="row d-flex mt-2 justify-content-between credit-info">
-              <div class="col-6">
-                <h3>Credits:</h3>
-              </div>
-              <div class="col-6 d-flex">
-                <h3 class="user-credits">...</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row mt-5">
-          <h2>Item listings:</h2>
-          <div class="col-12 mb-4">
-            <div>
-              <a
-                href="profile.html?listings=active"
-                class="btn btn-primary p-1 me-2"
-                >Active</a
-              >
-              <a href="profile.html" class="btn btn-primary p-1"
-                >All listings</a
-              >
-            </div>
-            <div class="row user-listing-container d-flex flex-wrap gap-2">
-              <div class="col-12 d-flex justify-content-center loading">
-                <h3><i class="fa-sharp fa-solid fa-spinner fa-spinn"></i></h3>
+              <div class="d-flex flex-column align-items-center mt-3 col-12">
+                <button class="btn btn-primary view-prev-bids-btn">
+                  View previous bids
+                </button>
+                <div class="col-8 modal" tabindex="-1" role="dialog"></div>
               </div>
             </div>
           </div>
