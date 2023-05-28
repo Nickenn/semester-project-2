@@ -4,7 +4,8 @@
   "description": "Semester project 2, Nicholas E. Avery",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "sass --watch src/scss:dist/css"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,8 @@
   "homepage": "https://github.com/Nickenn/semester-project-2#readme",
   "dependencies": {
     "bootstrap": "^5.2.0"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
   }
 }
