@@ -6,6 +6,10 @@ export function setLogoutListener() {
   });
 }
 
+/**
+ * Logs out user by clearing local storage.
+ */
+
 function logOut() {
   localStorage.clear();
 }
