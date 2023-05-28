@@ -1,5 +1,5 @@
 import { setLogoutListener } from "../js/listeners/userLogout.js";
-import { loginButton, token, profileLink } from "./components/variables";
+import { loginButton, token } from "./components/variables.js";
 
 setLogoutListener();
 
