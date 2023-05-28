@@ -1,4 +1,4 @@
-import { loading } from "../components/variables";
+import { loading } from "../components/variables.js";
 
 export function renderHtmlForListings(listing, container) 7
 for (let i = 0; i < listing.length; i++) {

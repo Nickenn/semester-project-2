@@ -3,7 +3,7 @@ import {
   desktopSearch,
   mobileSearch,
   loading,
-} from "../components/variables";
+} from "../components/variables.js";
 import { renderSearchResult } from "../renders/renderSearchResult.js";
 
 export function searchListings(listings) {

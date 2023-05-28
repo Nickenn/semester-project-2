@@ -1,4 +1,4 @@
-import { registerUrl } from "../components/api_endpoint_variables";
+import { registerUrl } from "../components/api_endpoint_variables.js";
 import {
   registrationForm,
   registrationFormSuccess,

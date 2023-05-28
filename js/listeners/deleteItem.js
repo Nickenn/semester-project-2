@@ -1,5 +1,5 @@
 import { deleteBtn, token, listingsContainer, bidForm } from "../components/variables.js";
-import { updateListingsUrl } from "../components/api_endpoint_variables";
+import { updateListingsUrl } from "../components/api_endpoint_variables.js";
 
 export function deleteListingListener() {
     deleteBtn.addEventListener("click", (event) => {

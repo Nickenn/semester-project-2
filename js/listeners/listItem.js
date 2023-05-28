@@ -1,4 +1,4 @@
-import { listItemUrl } from "../components/api_endpoint_variables";
+import { listItemUrl } from "../components/api_endpoint_variables.js";
 import { listingForm, token } from "../components/variables.js";
 
 export function setNewListItemListener() {

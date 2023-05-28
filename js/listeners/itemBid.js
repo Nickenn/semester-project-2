@@ -1,5 +1,5 @@
 import { userBidUrl } from "../components/api_endpoint_variables.js";
-import { token, bidForm, bidMessage } from "../components/variables";
+import { token, bidForm, bidMessage } from "../components/variables.js";
 
 export function setItemBidListener() {
   bidForm.addEventListener("submit", (event) => {

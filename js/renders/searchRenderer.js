@@ -1,4 +1,4 @@
-import { listingsContainer, loading } from "../components/variables";
+import { listingsContainer, loading } from "../components/variables.js";
 
 /**
  * Accepts one objects as an argument, and renders HTML to display the properties of that object.

@@ -1,5 +1,5 @@
-import { userListingsContainer, token } from "../components/variables";
-import { profileListingsUrl } from "../components/api_endpoint_variables";
+import { userListingsContainer, token } from "../components/variables.js";
+import { profileListingsUrl } from "../components/api_endpoint_variables.js";
 // import { renderListingsHTML }
 
 export async function getProfileListings() {

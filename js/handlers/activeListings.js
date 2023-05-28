@@ -1,5 +1,5 @@
-import { listingsUrl } from "../components/api_endpoint_variables";
-import { listingsContainer } from "../components/variables";
+import { listingsUrl } from "../components/api_endpoint_variables.js";
+import { listingsContainer } from "../components/variables.js";
 import { searchListings } from "../listeners/searchItems.js";
 import { renderHtmlForListings } from "../renders/renderListings.js";
 

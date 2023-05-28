@@ -2,7 +2,7 @@ import {
   userListingsContainer,
   token,
   listingsParam,
-} from "../components/variables";
+} from "../components/variables.js";
 import { activeListingsUrl } from "../components/api_endpoint_variables.js";
 // import { renderHtmlForListings } from "../renders/renderListings.js";
 // import { getProfileListings } from "../handlers/userListings.js";

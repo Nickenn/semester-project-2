@@ -1,5 +1,5 @@
 import { updateListingForm, token } from "../components/variables.js";
-import { listItemUrl } from "../components/api_endpoint_variables";
+import { listItemUrl } from "../components/api_endpoint_variables.js";
 
 export function updateListingListener() {
   updateListingForm.addEventListener("submit", (event) => {

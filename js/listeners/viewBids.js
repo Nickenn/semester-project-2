@@ -1,6 +1,6 @@
 import { bidModal, BidModalBtn, token} from "../components/variables.js";
-import { listItemUrl } from "../components/api_endpoint_variables";
-import { renderHtmlForBidsModal } from 
+import { listItemUrl } from "../components/api_endpoint_variables.js";
+import { renderHtmlForBidsModal } from "../renders/modalRenderer.js"
 
 export async function fetchBidsOnListing() {
     try {

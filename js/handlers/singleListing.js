@@ -8,7 +8,7 @@ import {
   updateTitle,
   username,
   editingTools
-} from "../components/variables";
+} from "../components/variables.js";
 
 export async function fetchSingleListing() {
   try {
