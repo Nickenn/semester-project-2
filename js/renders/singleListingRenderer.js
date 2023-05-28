@@ -1,5 +1,5 @@
 import {
-  listingsContainer,
+  listingContainer,
   updateTitle,
   updateDescription,
   updateMedia,
@@ -12,6 +12,7 @@ import {
  * Accepts one objects as an argument, and renders HTML to display the properties of that object.
  * @param { object } listing An object fetched from an API.
  */
+
 export function renderHtmlForSpecificListing(listing) {
   const { title, description, media, seller, bids, endsAt } = listing;
   const date = endsAt.slice(0, 10);

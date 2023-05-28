@@ -1,4 +1,22 @@
 body {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.logo {
+  text-decoration: none;
+  color: green;
+}
+
+main h1 {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+main h3 {
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+footer {
+  font-size: 20px;
 }

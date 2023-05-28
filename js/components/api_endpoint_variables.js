@@ -21,7 +21,7 @@ export const listItemUrl = `${API_BASE_URL}listings`;
 
 // Single listing
 
-export const singleItemUrl = `${listItemUrl}/${idParam}?_seller=true&_bids=true`;
+export const listingItemUrl = `${listItemUrl}/${idParam}?_seller=true&_bids=true`;
 export const updateListingsUrl = `${listingsUrl}/${idParam}`;
 
 // User bids

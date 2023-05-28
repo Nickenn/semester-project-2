@@ -4,7 +4,7 @@ import { bidModal } from "../components/variables.js";
  * Accepts one objects as an argument, and renders HTML to display a specidic property of that object
  * @param { object } listing An object fetched from an API.
  */
-export function renderHtmlForAllBidsModal(listing) {
+export function renderHtmlForBidsModal(listing) {
   const { bids } = listing;
   if (bids.length === 0) {
     const modalContainer = document.createElement("div");

@@ -49,10 +49,8 @@ export const searchMobile = document.querySelector("#search-form");
 
 // Item specific listing
 
-export const specificListingContainer = document.querySelector(
-  ".specific-listing-container"
-);
-export const deleteBtn = document.querySelector("delete-btn");
+export const listingContainer = document.querySelector(".listing-container");
+export const deleteBtn = document.querySelector(".delete-btn");
 export const bidForm = document.querySelector(".bid-form");
 export const editingTools = document.querySelector(".editing-tools");
 export const bidMessage = document.querySelector(".bid-message");
@@ -70,9 +68,5 @@ export const listingsParam = params.get("listings");
 
 export const updateListingForm = document.querySelector(".update-listing-form");
 export const updateTitle = document.querySelector(".update-listing-title");
-export const updateListingDescription = document.querySelector(
-  ".update-listing-description"
-);
-export const updateListingMedia = document.querySelector(
-  ".update-listing-media"
-);
+export const updateDescription = document.querySelector("#description");
+export const updateMedia = document.querySelector("#media");

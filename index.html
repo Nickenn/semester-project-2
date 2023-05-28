@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Home page for item bidding site." />
     <link rel="stylesheet" href="/styles/hamburger.css">
+    <link rel="stylesheet" href="/styles/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <title>ItemHunt | Home</title>
@@ -13,7 +14,7 @@
   <body>
     <header class="d-flex pb-4 flex-lg-row-reverse">
       <div class="container pe-0 ps-1 col-3">
-        <h2 class="navbar-brand text-decoration-none"><a href="/index.html">ItemHunt</a></h2>
+        <h2><a class="logo" href="/index.html">ItemHunt</a></h2>
         <nav class="navbar navbar-expand-lg pt-0">
           <div>
           <div class="justify-content-start my-3 col-10" id="nav">
@@ -25,7 +26,7 @@
                 <a href="/profile.html" class="nav-link"><i class="fa-sharp fa-solid fa-user"></i> Profile</a>
               </li>
               <li>
-                <a href="/login.html" class="nav-link"><i class="fa-sharp fa-solid fa-right-to-bracket"></i> Login</a>
+                <a href="/login.html" class="nav-link login-link"><i class="fa-sharp fa-solid fa-right-to-bracket"></i> Login</a>
               </li>
               <li>
                 <a href="/register.html" class="nav-link"><i class="fa-sharp fa-solid fa-right-to-bracket"></i> Create account</a>
@@ -120,7 +121,7 @@
             <h3>All item listings</h3>
           </div>
         </div>
-        <div class="row listings-container gap-4 d-flex flex-wrap">
+        <div class="row listings-container gap-4 d-flex flex-wrap listings-form">
           <div class="col-12 d-flex justify-content-center loading"></div>
             <h2><i class="fa-sharp fa-solid fa-spinner fa-spin"></i><h2>
         </div>

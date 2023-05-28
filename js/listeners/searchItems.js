@@ -1,10 +1,10 @@
-import {
+/* import {
   listingsContainer,
   desktopSearch,
   mobileSearch,
   loading,
 } from "../components/variables.js";
-import { renderSearchResult } from "../renders/renderSearchResult.js";
+import { renderSearchResult } from "../renders/searchRenderer.js";
 
 export function searchListings(listings) {
   desktopSearch.onkeyup = function (event) {
@@ -25,4 +25,4 @@ export function searchListings(listings) {
     });
     renderSearchResult(filteredSearch);
   };
-}
+} */
