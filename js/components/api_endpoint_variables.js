@@ -12,6 +12,7 @@ export const loginUrl = `${API_BASE_URL}auth/login`;
 export const profileUrl = `${API_BASE_URL}profiles/${username}`;
 export const profileMediaUrl = `${profileUrl}/media`;
 export const profileListingsUrl = `${profileUrl}/listings`;
+export const activeListingsUrl = `${profileUrl}/listings?_active=true`;
 
 // Listings
 
@@ -25,4 +26,4 @@ export const updateListingsUrl = `${listingsUrl}/${idParam}`;
 
 // User bids
 
-export const userBidsUrl = `${listItemUrl}/${idParam}/bids?_bids=true`;
+export const userBidUrl = `${listItemUrl}/${idParam}/bids?_bids=true`;

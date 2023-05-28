@@ -4,11 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
     <meta
       name="description"
       content="Account login page for item bidding site."
     />
-    <title>Auction page | Login</title>
+    <title>ItemHunt | Login</title>
   </head>
   <body>
     <header>
@@ -69,7 +73,7 @@
                         name="media"
                         id="media"
                         class="form-control"
-                        placeholder="https://pics.com/image.jpg"
+                        placeholder="https://pix.com/image.jpg"
                       />
                       <label for="endsAt" class="mt-3">Ends at:</label>
                       <input
@@ -180,13 +184,6 @@
                 anything finds you!
               </p>
             </div>
-            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-              <h6 class="text-uppercase fw-bold mb-4">Find items</h6>
-              <p>
-                <a href="#!" class="text-reset">JavaScript</a>
-              </p>
-            </div>
-
             <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
               <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
               <p>
@@ -218,11 +215,10 @@
         style="background-color: rgba(0, 0, 0, 0.025)"
       >
         © 2023 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/"
-          >MDBootstrap.com</a
-        >
+        <a class="text-reset fw-bold" href="index.html">ItemHunt.com</a>
       </div>
     </footer>
-    <script src="/js/login.js"></script>
+    <script defer src="js/index.js" type="module"></script>
+    <script defer src="js/profile.js" type="module"></script>
   </body>
 </html>
