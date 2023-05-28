@@ -1,4 +1,4 @@
-# semester-project-2,
+# semester-project-2
 
 <img src="/ItemHunt-screenshot.png" alt="Screenshot of the ItemHunt website on desktop">
 
