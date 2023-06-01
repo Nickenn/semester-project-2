@@ -20,6 +20,8 @@ The assignment was to create a online auction website where users could register
 
 - <a href="https://xd.adobe.com/view/459eccb7-936a-4793-acd7-8d6d35db7111-10cd/" target="_blank">ItemHunt prototype</a>
 
+- <a href="https://trello.com/b/LHfEfqJx/semester-project-2" target="_blank">Trello Board</a>
+
 ## Built with
 
 - HTML
