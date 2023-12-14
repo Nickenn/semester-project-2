@@ -2,25 +2,15 @@
 
 <img src="/ItemHunt-screenshot.png" alt="Screenshot of the ItemHunt website on desktop">
 
+Auction site for item bidding. 
+
 ## Description
 
-This website was for an assignment the second semester project. It was assigned by Noroff school of technology and digital media.
-
-"An auction site is looking to launch a website where users can add items to be bid on and bid on items other users have put up for auction.
+This website is and auction site where users may bid on items and add items for other users to bid on. 
 
 When a new user joins the website, they are given 1000 credits to use on the site. They can get credits by selling items and use credit by buying items. Non-registered users can search through the listings, but only registered users can make bids on listings."
 
-The assignment was to create a online auction website where users could register new accounts and bit on items on the site. The API functionality is handled by an existing application.
-
-### Links
-
-- <a href="https://spectacular-mousse-1a00dd.netlify.app/" target="_blank">ItemHunt website</a>
-
-- <a href="https://github.com/users/Nickenn/projects/4/views/1" target="_blank">Gantt Chart</a>
-
-- <a href="https://xd.adobe.com/view/459eccb7-936a-4793-acd7-8d6d35db7111-10cd/" target="_blank">ItemHunt prototype</a>
-
-- <a href="https://trello.com/b/LHfEfqJx/semester-project-2" target="_blank">Trello Board</a>
+The API functionality is handled by an existing application.
 
 ## Built with
 
@@ -38,3 +28,25 @@ The assignment was to create a online auction website where users could register
 git clone git@github.com:nickenn/semester-project-2.git
 npm install bootstrap
 ```
+
+## Contributing
+
+If you want to contribute to this project, please open a pull request so your code can be reviewed.
+
+## Contact
+
+[My LinkedIn page](https://www.linkedin.com/in/nicholas-avery-85415024a/)
+
+[My GitHub page](https://github.com/Nickenn)
+
+Email me at: nickeavery@protonmail.com
+
+## Links
+
+| Resource    | url                                                            |
+| :---------- | -------------------------------------------------------------- |
+|             |
+| Repository  | https://github.com/Nickenn/js-frameworks-ca-nicholas-avery.git |
+| Hosted Demo | [https://dazzling-figolla-10eae8.netlify.app/](https://spectacular-mousse-1a00dd.netlify.app/)                   |
+
+
